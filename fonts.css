@@ -1,0 +1,30 @@
+/* Wedding invitation font defaults
+   Google Fonts are loaded in index.html. */
+
+:root {
+  --font-korean: 'Gowun Batang', serif;
+  --font-english: 'Cormorant Garamond', serif;
+  --font-script: 'Parisienne', cursive;
+}
+
+html,
+body {
+  font-family: var(--font-korean);
+}
+
+button,
+input,
+textarea,
+select {
+  font-family: inherit;
+}
+
+/* Prevent mobile browsers from substituting their UI font in controls. */
+button,
+input,
+textarea,
+select,
+option {
+  -webkit-appearance: none;
+  appearance: none;
+}
